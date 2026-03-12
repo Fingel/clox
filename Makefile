@@ -8,3 +8,6 @@ clox: $(SRCS)
 
 clean:
 	rm -f clox
+
+run: clox
+	./clox
